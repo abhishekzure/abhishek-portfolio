@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: #020617;
+    position: sticky;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.social {
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+
+.social i {
+    color: white;
+    font-size: 20px;
+}
+
+.hero {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #95cce6;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: aliceblue;
+}
+
+.btn {
+    background: #38bdf8;
+    padding: 12px 25px;
+    border: none;
+    color: black;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+section {
+    padding: 60px 80px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
+    color: #38bdf8;
+}
+
+.about {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.4s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    background: #38bdf8;
+    color: black;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 1rem;
+    transition: 0.4s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #38bdf8;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #181e37;
+    margin-top: 40px;
+}
